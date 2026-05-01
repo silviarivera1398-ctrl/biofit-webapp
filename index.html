@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>BIOFIT Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css?v=20260430-1900" />
+  </head>
+  <body>
+    <main class="dashboard-layout">
+      <aside class="sidebar" aria-label="Navegación principal">
+        <div class="logo">
+          <div class="logo-leaf" aria-hidden="true"></div>
+          <div class="logo-wordmark">
+            <h1>BIOFIT</h1>
+            <p>Suplementos alimenticios</p>
+          </div>
+        </div>
+
+        <nav id="sidebarNav" class="sidebar-nav"></nav>
+        <div class="sidebar-footer">
+          <small>Dashboard BIOFIT v1.0</small>
+        </div>
+      </aside>
+
+      <section class="main-panel">
+        <header class="app-header">
+          <div class="header-title">
+            <h2 id="moduleTitle">Inicio</h2>
+            <p id="moduleSubtitle">Panel de gestión comercial y analítica</p>
+          </div>
+          <div class="header-actions">
+            <button class="ghost-btn" type="button">Exportar</button>
+            <div class="online-badge">Conectado</div>
+          </div>
+        </header>
+
+        <section class="content-area">
+          <div class="content-container">
+            <section id="mainContent" class="content"></section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js?v=20260430-1900"></script>
+  </body>
+</html>
